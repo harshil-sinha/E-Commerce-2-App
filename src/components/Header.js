@@ -32,6 +32,10 @@ const Header = () => {
             <Link to="/">
             <Nav.Link href="#home" className='mt-1'>Home</Nav.Link>
             </Link>
+            {/* <Link to="MyAbout.js" className={`nav-link 'text-dark-primary': 'text-light-primary'} mt-1`}>
+                  <VscAccount size="1.8rem"/>
+                  &nbsp;About
+              </Link> */}
             <Link to="my-account" className={`nav-link 'text-dark-primary': 'text-light-primary'} mt-1`}>
                   <VscAccount size="1.8rem"/>
                   &nbsp;Store
